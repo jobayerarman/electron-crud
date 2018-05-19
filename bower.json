@@ -1,0 +1,22 @@
+{
+  "name": "electro-app",
+  "version": "0.1.0",
+  "dependencies": {
+    "bootstrap-sass-official": "^3.2.0",
+    "AdminLTE": "admin-lte#^2.3.3",
+    "animate.css": "animate-css#^3.5.1"
+  },
+  "devDependencies": {
+  },
+  "appPath": "app",
+  "moduleName": "electroCrudApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}

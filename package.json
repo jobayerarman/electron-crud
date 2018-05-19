@@ -1,0 +1,40 @@
+{
+  "main": "app/index.js",
+  "version": "0.1.0",
+  "name": "electroapp",
+  "private": true,
+  "description": "MySQL CRUD build on Electron",
+  "license": "GPL-3.0",
+  "author": "Jobayer Arman <jobayer.arman@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jobayerarman/ElectroCRUD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jobayerarman/ElectroCRUD/issues"
+  },
+  "keywords": [
+    "mysql",
+    "CRUD",
+    "electron",
+    "database"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "debug": "electron start-debug.js",
+    "start": "electron app/index.js"
+  },
+  "devDependencies": {
+    "electron-builder": "^20.13.4",
+    "electron-debugger": "^2.1.0",
+    "electron-reload": "^1.2.2",
+    "lodash": "^4.13.1",
+    "mysql": "^2.10.2",
+    "promise": "^8.0.1"
+  },
+  "dependencies": {
+    "electron": "^2.0.1"
+  }
+}
